@@ -1,3 +1,4 @@
+```
 (ins)kod@m1:~/code/telehack$ cat |sponge | sed 's/^.....//g'  | xxd -r |sponge| strings
 00 | 51 17 0d 05 01 4e 48 0f 4c 47 54 4f 31 39 2f 43
 01 | 4b 5c 74 4a 46 63 41 50 0c 21 0c 5b 3c 12 40 01
@@ -58,3 +59,4 @@ send offset like so
 
 // Exploit succeeded!
 // Sending the CRTUSRACCT payload...
+```
